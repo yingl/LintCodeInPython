@@ -22,16 +22,14 @@ class Solution:
         ret = []
         if k == 0:  # 0/1特殊情况处理
             return [[]]
-        elif k == 1:
-            for i in xrange(pos, len(numbers), 1):
-                ret.append([numbers[i]])
-            return ret
-        else:
-            for i in xrange(pos, len(numbers), 1):
-                combs = self.combine(numbers, i + 1, k - 1)  # 计算i + 1开始位置，包含k - 1个元素的子集
-                if combs:
+        for i in xrange(pos, len(numbers), 1):
+            combs = self.combine(numbers, i + 1, k - 1)  # 计算i + 1开始位置，包含k - 1个元素的子集
+            if combs:
+                if combs != [[]]:
                     for comb in combs:
                         new_comb = [numbers[i]]
                         new_comb.extend(comb)
                         ret.append(new_comb)
-            return ret
+                else:
+                    ret.append([numbers[i]])
+        return ret
