@@ -15,3 +15,15 @@ class Solution:
             self.ret.append(root.val)
             self.inorderTraversal(root.right)   # 遍历右子树
         return self.ret
+
+    def loopVersion(self, root):    # 非递归版本
+        ret, stack = [], []
+        while root or stack:
+            while root:
+                stack.append(root)
+                root = root.left
+            if stack:
+                root = stack.pop()
+                ret.append(root.val)
+                root = root.right
+        return ret
