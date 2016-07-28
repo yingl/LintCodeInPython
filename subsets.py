@@ -10,12 +10,12 @@ class Solution:
         ret = []
         S.sort()
         for i in xrange(len(S) + 1):
-            combs = self.combine(S, 0, i) # 计算包含i个元素的子集
+            combs = self._subsets(S, 0, i) # 计算包含i个元素的子集
             for comb in combs:
                 ret.append(comb)
         return ret
         
-    def combine(self, numbers, pos, k):
+    def _subsets(self, numbers, pos, k):
         n = len(numbers) - pos
         if (not numbers) or (n < k):
             return None
@@ -23,7 +23,7 @@ class Solution:
         if k == 0:  # 0/1特殊情况处理
             return [[]]
         for i in xrange(pos, len(numbers), 1):
-            combs = self.combine(numbers, i + 1, k - 1)  # 计算i + 1开始位置，包含k - 1个元素的子集
+            combs = self._subsets(numbers, i + 1, k - 1)  # 计算i + 1开始位置，包含k - 1个元素的子集
             if combs:
                 if combs != [[]]:
                     for comb in combs:
