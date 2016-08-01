@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class Solution:
     """
     @param A : An integer array
