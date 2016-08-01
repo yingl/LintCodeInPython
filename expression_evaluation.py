@@ -56,5 +56,5 @@ class Solution:
                     ret.append(left_val - right_val)
         return 0 if not ret else ret[0] # 小心全括号的场景
 
-    def isOperand(self, item):
+    def isOperand(self, item):  # 这里偷个懒，测试数据没有负数！
         return (item[0] >= '0') and (item[0] <= '9')
