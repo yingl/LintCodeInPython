@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 class Solution:
     """
     @param nums: A list of integers.
