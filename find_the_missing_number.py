@@ -5,7 +5,14 @@ class Solution:
     # @return: an integer
     def findMissing(self, nums):
         # write your code here
-        ret = len(nums) * (len(nums) + 1) / 2
-        for num in nums:
-            ret -= num
+        for i in xrange(len(nums)):
+            j = i
+            while (nums[j] < len(nums)) and (nums[j] != j):
+                k = nums[j]
+                nums[j], nums[k] = nums[k], nums[j]
+        ret = 0
+        for i in xrange(len(nums)):
+            if nums[i] != i:
+                break
+            ret += 1
         return ret
