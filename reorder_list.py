@@ -7,8 +7,6 @@ class Solution:
     """
     def reorderList(self, head):
         # write your code here
-    def reorderList(self, head):
-        # write your code here
         '''
         0->1->2->3->4->5 (n = 5) => 0->5->1->4->2->3 (012/543)
         0->1->2->3->4->5->6 (n = 6) => 0->6->1->5->2->4->3 (0123/654)
