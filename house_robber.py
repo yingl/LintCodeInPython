@@ -12,10 +12,12 @@ class Solution:
         '''
         if not A:
             return 0
-        if len(A) == 1:
+        elif len(A) == 1:
             return A[0]
-        if len(A) == 2:
+        elif len(A) == 2:
             return max(A[0], A[1])
-        for i in xrange(2, len(A)):
-            A[i] = max(A[i] + A[i - 2], A[i - 1])
-        return A[-1]
+        else:
+            A[1] = max(A[0], A[1])
+            for i in xrange(2, len(A)):
+                A[i] = max(A[i] + A[i - 2], A[i - 1])
+            return A[-1]
