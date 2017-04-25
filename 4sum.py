@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -28,3 +28,5 @@ class Solution:
             while (j < len(self.numbers)) and (self.numbers[j] == self.numbers[start]):
                 j += 1
             self.kSum(j, data, _sum, k)
+
+# medium: http://lintcode.com/zh-cn/problem/4sum/
