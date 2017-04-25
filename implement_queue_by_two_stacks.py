@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class MyQueue:
 
@@ -24,3 +24,5 @@ class MyQueue:
         # write your code here
         # pop and return the top element
         return self.stack1.pop()
+
+# medium: http://lintcode.com/zh-cn/problem/implement-queue-by-two-stacks/
