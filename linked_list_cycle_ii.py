@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -38,3 +38,5 @@ class Solution:
             one_node = one_node.next
             two_node = two_node.next
         return one_node
+
+# hard: http://lintcode.com/zh-cn/problem/linked-list-cycle-ii/
