@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class StringUtils:
     # @param {string} originalStr the string we want to append to
@@ -16,3 +16,5 @@ class StringUtils:
             return result + originalStr
         else:
             return originalStr
+
+# easy: http://lintcode.com/zh-cn/problem/left-pad/
