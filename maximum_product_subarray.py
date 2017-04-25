@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param nums: an integer[]
@@ -17,3 +17,5 @@ class Solution:
             if max_products[i] > ret:
                 ret = max_products[i]
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/maximum-product-subarray/
