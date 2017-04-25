@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s: A string s
@@ -23,3 +23,5 @@ class Solution:
                     cache[i] = True
                     break
         return cache[len_s]
+
+# medium: http://lintcode.com/zh-cn/problem/word-break/
