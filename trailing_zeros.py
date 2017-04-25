@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param n a integer
@@ -9,3 +9,5 @@ class Solution:
             zeros += n / 5
             n /= 5
         return zeros
+
+# easy: http://lintcode.com/zh-cn/problem/trailing-zeros/
