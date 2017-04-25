@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s a string,  encoded message
@@ -22,3 +22,5 @@ class Solution:
                 if (s[i] == '1') or ((s[i] == '2') and (s[i + 1] <= '6')):
                     cached_nums[i] += cached_nums[i + 2]
         return cached_nums[0]
+
+# medium: http://lintcode.com/zh-cn/problem/decode-ways/
