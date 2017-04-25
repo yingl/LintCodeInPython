@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {boolean[][]} matrix, a list of lists of boolean
@@ -11,7 +11,6 @@ class Solution:
         rows, cols = len(matrix), len(matrix[0])
         height = [0] * cols
         left, right = [0] * cols, [cols] * cols
-        # TODO
         for i in xrange(rows):
             cur_left, cur_right = 0, cols
             # 更新当前列的高度
@@ -35,3 +34,5 @@ class Solution:
             for j in xrange(cols):
                 ret = max(ret, (right[j] - left[j]) * height[j])
         return ret
+
+# hard: http://lintcode.com/zh-cn/problem/maximal-rectangle/
