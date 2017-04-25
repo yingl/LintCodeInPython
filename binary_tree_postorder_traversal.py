@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     def __init__(self):
@@ -15,3 +15,5 @@ class Solution:
             self.postorderTraversal(root.right)   # 遍历右子树
             self.values.ret(root.val)
         return self.values
+
+# easy: http://lintcode.com/zh-cn/problem/binary-tree-postorder-traversal/
