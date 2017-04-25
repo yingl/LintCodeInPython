@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -38,3 +38,5 @@ class Solution:
         - root.val + max_right_sum
         '''
         return max(max(root.val + left_sum, root.val + right_sum), root.val)
+
+# medium: http://lintcode.com/zh-cn/problem/binary-tree-maximum-path-sum/
