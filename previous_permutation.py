@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param num :  a list of integer
@@ -33,3 +33,5 @@ class Solution:
         partial_list.reverse()
         num[i:] = partial_list
         return num
+
+# medium: http://lintcode.com/zh-cn/problem/previous-permutation/
