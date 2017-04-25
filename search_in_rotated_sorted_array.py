@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -29,3 +29,5 @@ class Solution:
                 else:
                     end = mid - 1
         return -1
+
+# medium: http://lintcode.com/zh-cn/problem/search-in-rotated-sorted-array/
