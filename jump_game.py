@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A, a list of integers
@@ -17,3 +17,5 @@ class Solution:
             if i + A[i] >= index:
                 index = i
         return index == 0
+
+# medium: http://lintcode.com/zh-cn/problem/jump-game/
