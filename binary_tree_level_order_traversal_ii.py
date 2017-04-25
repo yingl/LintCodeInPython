@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
             level = new_level
         ret.reverse() # 反转二叉树的层次遍历
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/binary-tree-level-order-traversal-ii/
