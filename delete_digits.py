@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -33,3 +33,5 @@ class Solution:
             if A[i] < A[min_index]:
                 min_index = i
         return min_index
+
+# medium: http://lintcode.com/zh-cn/problem/delete-digits/
