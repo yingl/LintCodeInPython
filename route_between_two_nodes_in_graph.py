@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -22,3 +22,5 @@ class Solution:
                     nodes.append(node)
             pos += 1
         return False
+
+# medium: http://lintcode.com/zh-cn/problem/route-between-two-nodes-in-graph/
