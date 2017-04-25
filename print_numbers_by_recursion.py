@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param n: An integer.
@@ -17,3 +17,5 @@ class Solution:
         if n == 1:
             return
         self._numbersByRecursion(new_val, n - 1)
+
+# medium: http://lintcode.com/zh-cn/problem/print-numbers-by-recursion/
