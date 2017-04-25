@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -20,3 +20,5 @@ class Solution:
                 node.next = next_node
             node = node.next
         return head
+
+# easy: http://lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list/
