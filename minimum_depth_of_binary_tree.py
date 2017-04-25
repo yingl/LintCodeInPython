@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -22,3 +22,5 @@ class Solution:
                 self.dfs(root.left, depth + 1)
             if root.right:
                 self.dfs(root.right, depth + 1)
+
+# easy: http://lintcode.com/zh-cn/problem/minimum-depth-of-binary-tree/
