@@ -20,4 +20,4 @@ class Solution:
           ret.append(B[k])
         return ret
 
-# easy: http://lintcode.com/zh-cn/problem/merge-two-sorted-lists/
+# easy: http://lintcode.com/zh-cn/problem/merge-two-sorted-arrays/
