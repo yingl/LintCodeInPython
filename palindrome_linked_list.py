@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param head, a ListNode
@@ -56,3 +56,5 @@ class Solution:
             _len += 1
             head = head.next
         return _len
+
+# medium: http://lintcode.com/problem/palindrome-linked-list
