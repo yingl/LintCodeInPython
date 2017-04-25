@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -13,3 +13,5 @@ class Solution:
                 if j != i:
                     B[i] *= A[j]
         return B
+
+# easy: http://lintcode.com/zh-cn/problem/product-of-array-exclude-itself/
