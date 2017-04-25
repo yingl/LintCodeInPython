@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     """
@@ -31,3 +31,5 @@ class Solution:
                     else:
                         root.max = _max
             return root.max
+
+# medium: http://lintcode.com/zh-cn/problem/segment-tree-modify/
