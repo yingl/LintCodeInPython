@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -29,3 +29,5 @@ class Solution:
                     if A[i] < target:
                         return i + 1
         return 0
+
+# easy: http://lintcode.com/zh-cn/problem/search-insert-position/
