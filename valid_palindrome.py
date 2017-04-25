@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s A string
@@ -18,3 +18,5 @@ class Solution:
                     i += 1
                     j -= 1
         return True
+
+# easy: http://lintcode.com/zh-cn/problem/valid-palindrome/
