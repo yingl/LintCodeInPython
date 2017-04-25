@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
                 start += 1
                 end -= 1
         return start + 1 if nums[start] < k else start
+
+# medium: http://lintcode.com/zh-cn/problem/partition-array/
