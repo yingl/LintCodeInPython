@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -28,3 +28,5 @@ class Solution:
                     if node_map[neighbor] == 0:
                         stack.append(neighbor)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/topological-sorting/
