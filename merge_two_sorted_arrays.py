@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     #@param A and B: sorted integer array A and B.
@@ -19,3 +19,5 @@ class Solution:
         for k in xrange(j, len(B)):
           ret.append(B[k])
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/merge-two-sorted-lists/
