@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -15,3 +15,5 @@ class Solution:
         else:
             root.right = self.insertNode(root.right, node)
         return root
+
+# easy: http://lintcode.com/problem/insert-node-in-a-binary-search-tree
