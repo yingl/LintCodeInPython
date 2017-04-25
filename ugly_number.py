@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} num an integer
@@ -19,3 +19,5 @@ class Solution:
                 return self.isUgly(num / 2)
             else:
                 return False
+
+# easy: http://lintcode.com/zh-cn/problem/ugly-number/
