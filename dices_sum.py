@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n an integer
@@ -29,3 +29,5 @@ class Solution:
         for i in xrange(n - 1, n * 6):
             ret.append([i + 1, matrix[-1][i]])
         return ret
+
+# hard: http://lintcode.com/problem/dices-sum
