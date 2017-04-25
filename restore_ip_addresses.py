@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s the IP string
@@ -30,3 +30,5 @@ class Solution:
         for i in xrange(start + 1, end):
             ret = ret * 10 + int(s[i])
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/restore-ip-addresses/
