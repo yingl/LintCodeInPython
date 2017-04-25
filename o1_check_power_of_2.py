@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -10,3 +10,5 @@ class Solution:
         if n == 0:
             return False
         return (n & (n - 1)) == 0
+
+# easy: http://lintcode.com/zh-cn/problem/o1-check-power-of-2/
