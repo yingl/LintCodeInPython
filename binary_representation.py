@@ -1,11 +1,10 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     #@param n: Given a decimal number that is passed in as a string
     #@return: A string
     def binaryRepresentation(self, n):
         # write you code here
-        # TODO: 添加注释
         bin_val = []
         int_digits = 0
         for i in xrange(len(n)):
@@ -55,3 +54,5 @@ class Solution:
             ret *= 10
             i += 1
         return ret
+
+# hard: http://lintcode.com/zh-cn/problem/binary-representation/
