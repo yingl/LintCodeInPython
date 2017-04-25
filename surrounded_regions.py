@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {list[list[str]]} board a 2D board containing 'X' and 'O'
@@ -38,3 +38,5 @@ class Solution:
             self.dfs(board, row, col - 1)
         if col < cols - 1:  # 向右
             self.dfs(board, row, col + 1)
+
+# medium: http://lintcode.com/zh-cn/problem/surrounded-regions/
