@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -14,3 +14,5 @@ class Solution:
                 ret = max(ret, prices[i] - buy_price)
                 buy_price = min(prices[i], buy_price) # 更新买入价格
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/best-time-to-buy-and-sell-stock/
