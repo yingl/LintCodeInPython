@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} A an integer array
@@ -23,3 +23,5 @@ class Solution:
                     array[pivot_index], array[i] = array[i], array[pivot_index]
         array[start], array[pivot_index] = array[pivot_index], array[start]
         return pivot_index
+
+# easy: http://lintcode.com/zh-cn/problem/sort-integers-ii/
