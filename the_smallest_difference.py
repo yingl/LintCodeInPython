@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A, B: Two lists of integer
@@ -32,3 +32,5 @@ class Solution:
                 else:
                     j += 1
         return diff
+
+# medium: http://lintcode.com/zh-cn/problem/topological-sorting/
