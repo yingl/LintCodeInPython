@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -38,3 +38,5 @@ class Solution:
                 else:
                     row.append('.')
             ret[-1].append(row)
+
+# medium: http://lintcode.com/zh-cn/problem/n-queens/
