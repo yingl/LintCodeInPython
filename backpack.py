@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param m: An integer m denotes the size of a backpack
@@ -22,3 +22,5 @@ class Solution:
                 for j in xrange(m, A[i] - 1, -1):
                     capacities[j] = max(capacities[j - A[i]] + A[i], capacities[j])
         return capacities[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/backpack/
