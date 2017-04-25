@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -18,3 +18,5 @@ class Solution:
                 j += 1
             i = j
         return len(A) - steps
+
+# easy: http://lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-array/
