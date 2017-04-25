@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -26,3 +26,5 @@ class Solution:
         for l in L:
             ret += l / wood_len
         return ret
+
+# hard: http://lintcode.com/zh-cn/problem/wood-cut/
