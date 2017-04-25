@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -22,3 +22,5 @@ class Solution:
                     new_level.append(node.right)
             level = new_level
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/binary-tree-level-order-traversal/
