@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} nums an integer array
@@ -12,3 +12,5 @@ class Solution:
                 zeros += 1
         for i in xrange(zeros):
             nums[len(nums) - i - 1] = 0
+
+# easy: http://lintcode.com/zh-cn/problem/move-zeroes/
