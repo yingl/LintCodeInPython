@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s the string that represents a number
@@ -80,3 +80,5 @@ class Solution:
                 or (state == FLOAT) \
                 or (state == EXP_INT) \
                 or (state == ENDING_SPACES)
+
+# hard: http://lintcode.com/zh-cn/problem/valid-number/
