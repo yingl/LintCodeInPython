@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {double} x the base number
@@ -16,3 +16,5 @@ class Solution:
             k = self.myPow(x, n / 2)
             k2 = k * k
             return k2 if (n % 2 == 0) else (k2 * x)
+
+# medium: http://lintcode.com/zh-cn/problem/powx-n/
