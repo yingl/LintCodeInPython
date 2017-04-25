@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -28,3 +28,5 @@ class Solution:
             if (col == queen[1]) or (abs(row - queen[0]) == abs(col - queen[1])):
                 return False
         return True
+
+# medium: http://lintcode.com/zh-cn/problem/n-queens-ii/
