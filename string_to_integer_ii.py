@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param str: a string
@@ -33,3 +33,5 @@ class Solution:
                 return int_max if sign > 0 else int_min
             i += 1
         return sign * sum
+
+# hard: http://lintcode.com/zh-cn/problem/string-to-integer-ii/
