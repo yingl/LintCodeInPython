@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -27,3 +27,5 @@ class Solution:
             tail.next = node
         tail = node
         return head
+
+# easy: http://lintcode.com/zh-cn/problem/merge-two-sorted-lists/
