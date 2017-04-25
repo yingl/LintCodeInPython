@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s Roman representation
@@ -50,3 +50,5 @@ class Solution:
                 ret += tmp * mul  # 5678
             i = j
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/roman-to-integer/
