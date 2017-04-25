@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} a a number
@@ -26,3 +26,5 @@ class Solution:
         if flag:
             ret += str(flag)
         return ret[::-1]  # Python没有提供直接反转字符串的函数，用切片凑合一下吧。
+
+# easy: http://lintcode.com/zh-cn/problem/add-binary/
