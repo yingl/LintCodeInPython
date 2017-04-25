@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A: a list of non-negative integers.
@@ -21,3 +21,5 @@ class Solution:
             for i in xrange(2, len(A)):
                 A[i] = max(A[i] + A[i - 2], A[i - 1])
             return A[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/house-robber/
