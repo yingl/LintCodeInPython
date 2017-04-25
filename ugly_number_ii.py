@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -62,3 +62,5 @@ class Solution:
             index_3 += 1 if numbers[i] >= m_3 else 0
             index_5 += 1 if numbers[i] >= m_5 else 0
         return numbers[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/ugly-number-ii/
