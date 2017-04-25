@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @return: The same instance of this class every time
@@ -10,3 +10,5 @@ class Solution:
         return Solution.obj
 
     obj = None
+
+# easy: http://lintcode.com/zh-cn/problem/sort-integers-ii/
