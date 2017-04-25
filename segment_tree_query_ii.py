@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     # @param root, start, end: The root of segment tree and 
@@ -23,3 +23,5 @@ class Solution:
                     elif root.right and (start >= root.right.start):  # start是否满足进入右节点的要求
                         ret += self.query(root.right, start, end)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/segment-tree-query-ii/
