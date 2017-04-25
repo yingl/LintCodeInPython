@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n a positive integer
@@ -19,3 +19,5 @@ class Solution:
             _next = min(candidates)
             ret.append(_next)
         return ret[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/super-ugly-number/
