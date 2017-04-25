@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A: An integer array.
@@ -30,3 +30,5 @@ class Solution:
         for i in xrange(0, 101):
             ret = min(ret, costs[len(A) - 1][i])
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/minimum-adjustment-cost/
