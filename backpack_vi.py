@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} nums an integer array and all positive numbers, no duplicates
@@ -18,3 +18,5 @@ class Solution:
                 if i >= nums[j]:
                     result[i] += result[i - nums[j]]
         return result[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/backpack-vi/
