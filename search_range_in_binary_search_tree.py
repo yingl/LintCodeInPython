@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -24,3 +24,5 @@ class Solution:
                 ret.extend(self.searchRange(root.right, k1, k2))
         ret.sort()
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/search-range-in-binary-search-tree/
