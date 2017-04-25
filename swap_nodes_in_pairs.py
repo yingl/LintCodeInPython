@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param head, a ListNode
@@ -20,3 +20,5 @@ class Solution:
             prev = node
             node = node.next
         return dummy_node.next
+
+# easy: http://lintcode.com/zh-cn/problem/swap-nodes-in-pairs/
