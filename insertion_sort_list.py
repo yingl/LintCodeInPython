@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -19,3 +19,5 @@ class Solution:
             tmp.next = head
             head = next
         return new_head.next
+
+# easy: http://lintcode.com/zh-cn/problem/insertion-sort-list/
