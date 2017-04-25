@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s, a string
@@ -50,3 +50,5 @@ class Solution:
                         break
                 else:
                     break
+
+# medium: http://lintcode.com/problem/palindrome-partitioning
