@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param dictionary: a list of strings
@@ -16,3 +16,5 @@ class Solution:
             elif word_len == max_word_len:
                 ret.append(word)
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/longest-words/
