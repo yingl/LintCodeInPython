@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {TreeNode} root the root of the binary tree
@@ -19,3 +19,5 @@ class Solution:
                 self._binaryTreePaths(root.right, path)
             if not (root.left or root.right):
                 self.ret.append(path)
+
+# easy: http://lintcode.com/zh-cn/problem/binary-tree-paths/
