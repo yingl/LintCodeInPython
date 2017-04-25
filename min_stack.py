@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class MinStack(object):
     def __init__(self):
@@ -24,3 +24,5 @@ class MinStack(object):
         # return the minimum number in stack
         if self.mins:
             return self.mins[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/min-stack/
