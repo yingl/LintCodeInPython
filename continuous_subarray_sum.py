@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} A an integer array
@@ -19,3 +19,5 @@ class Solution:
                 curr_start = i + 1
                 _sum = 0
         return [start, end]
+
+# medium: http://lintcode.com/zh-cn/problem/continuous-subarray-sum/
