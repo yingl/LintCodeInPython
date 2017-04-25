@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -33,3 +33,5 @@ class Solution:
             level.reverse() # 殷雯访问顺序反转，该层的数据也要反转。
             ret.append(data)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/binary-tree-zigzag-level-order-traversal/
