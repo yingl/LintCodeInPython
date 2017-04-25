@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param: a matrix of integers
@@ -37,3 +37,5 @@ class Solution:
                     ret.append(matrix[row][col])
                     i += 1
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/matrix-zigzag-traversal/
