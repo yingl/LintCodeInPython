@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -13,3 +13,5 @@ class Solution:
                 if (numbers[i] + numbers[j]) == target:
                     return [i + 1, j + 1]
         return [0, 0]
+
+# easy: http://lintcode.com/zh-cn/problem/two-sum/
