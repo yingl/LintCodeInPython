@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     # @param start, end: Denote an segment / interval
@@ -12,3 +12,5 @@ class Solution:
             ret.left = self.build(start, (start + end) / 2)
             ret.right = self.build((start + end) / 2 + 1, end)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/segment-tree-build/
