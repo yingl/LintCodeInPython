@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A, a list of integers
@@ -25,3 +25,5 @@ class Solution:
             if A[i] != (i + 1):
                 return i + 1
         return len(A) + 1
+
+# medium: http://lintcode.com/zh-cn/problem/first-missing-positive/
