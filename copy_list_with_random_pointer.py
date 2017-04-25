@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param head: A RandomListNode
@@ -39,3 +39,5 @@ class Solution:
             new_tail.next = None
             node = prev.next
         return new_head
+
+# medium: http://lintcode.com/zh-cn/problem/copy-list-with-random-pointer/
