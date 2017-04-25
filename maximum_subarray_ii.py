@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -30,3 +30,5 @@ class Solution:
         for i in xrange(nums_len - 1):
             _max = max(_max, max_sums_from_left[i] + max_sums_from_right[i + 1])
         return _max
+
+# medium: http://lintcode.com/zh-cn/problem/maximum-subarray-ii/
