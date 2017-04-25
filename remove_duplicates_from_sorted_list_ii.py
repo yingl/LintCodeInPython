@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -25,3 +25,5 @@ class Solution:
                     next_node = next_node.next
                 old_node = next_node
         return new_head
+
+# medium: http://lintcode.com/zh-cn/problem/remove-duplicates-from-sorted-list-ii/
