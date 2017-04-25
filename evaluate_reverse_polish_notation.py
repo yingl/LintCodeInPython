@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string[]} tokens The Reverse Polish Notation
@@ -29,3 +29,5 @@ class Solution:
 
     def isOperator(self, item):
         return (item == '+') or (item == '-') or (item == '*') or (item == '/')
+
+# medium: http://lintcode.com/zh-cn/problem/evaluate-reverse-polish-notation/
