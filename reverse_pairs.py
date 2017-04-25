@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} A an array
@@ -46,3 +46,5 @@ class Solution:
         for i in xrange(start, end + 1):
             A[i] = self.tmp[i]
         return pairs
+
+# medium: http://lintcode.com/zh-cn/problem/reverse-pairs/
