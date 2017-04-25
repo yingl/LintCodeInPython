@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -21,3 +21,5 @@ class Solution:
             return False
         return self.check(root.left, root.val, right_min) and \
                 self.check(root.right, left_max, root.val)
+
+# medium: http://lintcode.com/zh-cn/problem/validate-binary-search-tree/
