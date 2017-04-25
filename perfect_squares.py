@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n a positive integer
@@ -15,3 +15,5 @@ class Solution:
                 else:
                     break
         return cache[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/perfect-squares/
