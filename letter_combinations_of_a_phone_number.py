@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} digits A digital string
@@ -20,3 +20,5 @@ class Solution:
                 level = new_level
             i += 1
         return level
+
+# medium: http://lintcode.com/zh-cn/problem/letter-combinations-of-a-phone-number/
