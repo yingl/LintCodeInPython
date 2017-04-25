@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -19,3 +19,5 @@ class Solution:
         if not root:
             return 0
         return 1 + max(self._isBalanced(root.left), self._isBalanced(root.right))
+
+# easy: http://lintcode.com/zh-cn/problem/balanced-binary-tree/
