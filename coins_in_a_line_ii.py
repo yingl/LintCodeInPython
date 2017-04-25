@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param values: a list of integers
@@ -19,3 +19,5 @@ class Solution:
             # 拿2个后，对方取1个或2个的情况。
             score[i] = max(score[i], values[i] + values[i + 1] + min(score[i + 3], score[i + 4]))
         return True if score[0] > (sum(values) - score[0]) else False
+
+# medium: http://lintcode.com/zh-cn/problem/coins-in-a-line-ii/
