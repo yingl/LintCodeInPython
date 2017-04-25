@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
             if value != 0:
                 return False
         return True
+
+# easy: http://lintcode.com/zh-cn/problem/two-strings-are-anagrams/
