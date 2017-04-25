@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param strs: A list of strings
@@ -19,3 +19,5 @@ class Solution:
                 for word in info['words']:
                     ret.append(word)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/anagrams/
