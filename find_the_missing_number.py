@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param nums: a list of integers
@@ -16,3 +16,5 @@ class Solution:
                 break
             ret += 1
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/find-the-missing-number/
