@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param k & A a integer and an array
@@ -28,3 +28,5 @@ class Solution:
                     array[ret_index], array[i] = array[i], array[ret_index]
         array[start], array[ret_index] = array[ret_index], array[start]
         return ret, len(array) - ret_index  # 如果不减就是第x + 1小！
+
+# medium: http://lintcode.com/zh-cn/problem/kth-largest-element/
