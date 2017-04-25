@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class TrieNode: # 参考implement_trie.py实现
   def __init__(self):
@@ -43,3 +43,5 @@ class WordDictionary:
                     if self.dfs_search(trie, word, i + 1):
                         return True
         return False
+
+# medium: http://lintcode.com/zh-cn/problem/add-and-search-word/
