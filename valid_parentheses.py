@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s A string
@@ -25,3 +25,5 @@ class Solution:
         else:
             par_list.append(right)
         return True
+
+# easy: http://lintcode.com/zh-cn/problem/valid-parentheses/
