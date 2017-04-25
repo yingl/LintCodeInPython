@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     def __init__(self):
@@ -27,3 +27,5 @@ class Solution:
                 ret.append(root.val)
                 root = root.right
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/binary-tree-inorder-traversal/
