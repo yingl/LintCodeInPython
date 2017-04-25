@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {TreeNode} root, the root of binary tree.
@@ -16,3 +16,5 @@ class Solution:
         not_rob = rob_left[1] + rob_right[1] + root.val
         rob = max(rob_left) + max(rob_right)
         return (not_rob, rob)
+
+# medium: http://lintcode.com/zh-cn/problem/house-robber-iii/
