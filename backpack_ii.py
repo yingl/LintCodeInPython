@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param m: An integer m denotes the size of a backpack
@@ -19,3 +19,5 @@ class Solution:
                 if j >= A[i]: # 有足够的体积容纳第i件商品
                     ret[j] = max(ret[j], ret[j - A[i]] + V[i])
         return ret[-1]
+
+# medium: http://lintcode.com/zh-cn/problem/backpack-ii/
