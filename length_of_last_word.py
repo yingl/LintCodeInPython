@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} s A string
@@ -13,3 +13,5 @@ class Solution:
                 break
             i -= 1
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/length-of-last-word/
