@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} digits a number represented as an array of digits
@@ -15,3 +15,5 @@ class Solution:
             number /= 10
         ret.reverse()
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/plus-one/
