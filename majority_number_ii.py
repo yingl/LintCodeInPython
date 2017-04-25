@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -38,3 +38,5 @@ class Solution:
             elif num == v_2:
                 c_2 += 1
         return v_1 if c_1 >= c_2 else v_2
+
+# medium: http://lintcode.com/zh-cn/problem/majority-number-ii/
