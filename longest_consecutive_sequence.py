@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -31,3 +31,5 @@ class Solution:
                     neighbors[i] = None
                     ret = max(count, ret)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/longest-consecutive-sequence/
