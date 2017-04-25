@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -19,3 +19,5 @@ class Solution:
         root.left = self._sortedArrayToBST(array, start, mid)   # 生成左子树
         root.right = self._sortedArrayToBST(array, mid + 1, end)    # 生成右子树
         return root
+
+# easy: http://lintcode.com/problem/convert-sorted-array-to-binary-search-tree-with-minimal-height
