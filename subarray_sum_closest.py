@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -26,3 +26,5 @@ class Solution:
                 ret.append(min(sums[i][1], sums[i - 1][1]) + 1)
                 ret.append(max(sums[i][1], sums[i - 1][1]))
         return ret
+
+# medium: http://lintcode.com/problem/subarray-sum-closest
