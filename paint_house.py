@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[][]} costs n x 3 cost matrix
@@ -21,3 +21,5 @@ class Solution:
                 tmp.append(cost[i] + min(curr_costs[i - 1], curr_costs[i - 2]))
             curr_costs = tmp
         return min(curr_costs)
+
+# medium: http://lintcode.com/zh-cn/problem/paint-house/
