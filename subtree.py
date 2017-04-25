@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param T1, T2: The roots of binary tree.
@@ -32,3 +32,5 @@ class Solution:
                 self.isSametree(T1.right, T2.right)
         else:
             return False
+
+# easy: http://lintcode.com/zh-cn/problem/subtree/
