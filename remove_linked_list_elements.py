@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param head, a ListNode
@@ -17,3 +17,5 @@ class Solution:
                 prev = node
             node = node.next
         return head
+        
+# entry: http://www.lintcode.com/zh-cn/problem/remove-linked-list-elements/
