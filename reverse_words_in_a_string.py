@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s : A string
@@ -9,3 +9,5 @@ class Solution:
         words = s.split()
         words.reverse()
         return " ".join(words)
+
+# easy: http://lintcode.com/zh-cn/problem/reverse-words-in-a-string/
