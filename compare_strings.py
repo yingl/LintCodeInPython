@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -22,3 +22,5 @@ class Solution:
                 if count[ch] == 0:
                     del(count[ch])
         return not count
+
+# easy: http://lintcode.com/zh-cn/problem/compare-strings/
