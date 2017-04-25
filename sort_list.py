@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -46,3 +46,5 @@ class Solution:
         else:
             tail.next = left if left is not None else right
         return head
+
+# medium: http://lintcode.com/zh-cn/problem/sort-list/
