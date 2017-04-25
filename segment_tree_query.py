@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     # @param root, start, end: The root of segment tree and 
@@ -17,3 +17,5 @@ class Solution:
             left_max = self.query(root.left, start, mid)
             right_max = self.query(root.right, mid + 1, end)
             return max(left_max, right_max)
+
+# medium: http://lintcode.com/zh-cn/problem/segment-tree-query/
