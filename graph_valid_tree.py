@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n an integer
@@ -27,3 +27,5 @@ class Solution:
         for i in xrange(len(tree[node])):
             if tree[node][i] and (not visited[i]):
                 self.dfs(tree, visited, i)
+
+# medium: http://lintcode.com/zh-cn/problem/graph-valid-tree/
