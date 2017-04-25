@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param n: an integer
@@ -9,8 +9,10 @@ class Solution:
             return n - 1
         ret = 0
         f_1, f_2 = 0, 1
-        for i in xrange(3, n + 1):
+        for i in range(3, n + 1):
             ret = f_1 + f_2
             f_1 = f_2
             f_2 = ret
         return ret
+        
+# entry: http://www.lintcode.com/zh-cn/problem/fibonacci/
