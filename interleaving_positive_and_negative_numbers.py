@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -44,3 +44,5 @@ class Solution:
                 A[start], A[end] = A[end], A[start]
                 start += 1
                 end -= 1
+
+# medium: http://lintcode.com/zh-cn/problem/interleaving-positive-and-negative-numbers/
