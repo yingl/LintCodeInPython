@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
             dists = new_dists
             i += 1
         return min(dists)
+
+# easy: http://lintcode.com/zh-cn/problem/triangle/
