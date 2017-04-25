@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Toy:
     def talk(self):
@@ -23,3 +23,5 @@ class ToyFactory:
             return Dog()
         elif type == 'Cat':
             return Cat()
+
+# easy: http://lintcode.com/zh-cn/problem/toy-factory/
