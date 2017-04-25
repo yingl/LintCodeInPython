@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param nums: a list of integer
@@ -23,3 +23,5 @@ class Solution:
         partial_list.sort()
         nums[i + 1:] = partial_list
         return nums
+
+# medium: http://lintcode.com/zh-cn/problem/next-permutation-ii/
