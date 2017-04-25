@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -21,3 +21,5 @@ class Solution:
                 ret += 1
             n >>= 1
         return ret
+
+# easy: http://lintcode.com/problem/flip-bits
