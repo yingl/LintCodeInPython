@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class TrieNode:
   def __init__(self):
@@ -51,3 +51,5 @@ class Trie:
       else:
         root = root.map[ch]
     return True
+
+# medium: http://lintcode.com/zh-cn/problem/implement-trie/
