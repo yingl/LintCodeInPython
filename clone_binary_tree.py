@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -15,3 +15,5 @@ class Solution:
             if root.right:
                 new_root.right = self.cloneTree(root.right)
         return new_root
+
+# easy: http://lintcode.com/zh-cn/problem/clone-binary-tree/
