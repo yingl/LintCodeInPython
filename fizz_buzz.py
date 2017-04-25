@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -19,3 +19,5 @@ class Solution:
             else:
                 ret.append(str(i))
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/fizz-buzz/
