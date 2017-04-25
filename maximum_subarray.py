@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
                 _sum = 0
             i += 1
         return sum_max
+
+# easy: http://lintcode.com/zh-cn/problem/maximum-subarray/
