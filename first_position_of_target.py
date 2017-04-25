@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param nums: The integer array
@@ -20,3 +20,5 @@ class Solution:
                         return i + 1
                 return 0
         return -1
+
+# easy: http://lintcode.com/zh-cn/problem/first-position-of-target/
