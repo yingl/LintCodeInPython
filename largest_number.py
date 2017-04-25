@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     #@param num: A list of non negative integers
@@ -27,3 +27,5 @@ class Solution:
             x /= 10
             ret += 1
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/largest-number/
