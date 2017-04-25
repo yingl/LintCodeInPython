@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} dividend the dividend
@@ -31,3 +31,5 @@ class Solution:
         product >>= 1 # 除2
         ret += self.divide(dividend - product, divisor)
         return ret if not neg else -ret
+
+# medium: http://lintcode.com/zh-cn/problem/divide-two-integers/
