@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
             ret ^= A[start]
             start += 1
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/single-number-iii/
