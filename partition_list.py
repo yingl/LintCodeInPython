@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -29,3 +29,5 @@ class Solution:
         if small_tail is not None:
             small_tail.next = big_head
         return small_head if small_head else big_head
+
+# easy: http://lintcode.com/zh-cn/problem/partition-list/
