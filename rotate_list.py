@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param head: the list
@@ -25,3 +25,5 @@ class Solution:
         tail.next = head  # tail指向原来的head
         new_tail.next = None
         return new_head
+
+# medium: http://lintcode.com/zh-cn/problem/rotate-list/
