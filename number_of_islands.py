@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {boolean[][]} grid a boolean 2D matrix
@@ -25,3 +25,5 @@ class Solution:
                 self.mark(grid, row, col - 1)
             if col < len(grid[0]) - 1:  # right
                 self.mark(grid, row, col + 1)
+
+# easy: http://lintcode.com/zh-cn/problem/number-of-islands/
