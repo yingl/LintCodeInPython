@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param node, a undirected graph node
@@ -17,3 +17,5 @@ class Solution:
         for neighbor in node.neighbors:
             ret.neighbors.append(self.cloneGraph(neighbor))
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/clone-graph/
