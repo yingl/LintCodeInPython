@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -41,3 +41,5 @@ class Solution:
                         matched -= 1  # 意味着必需在后面再次匹配source[j]
                     j += 1  # 必需确保这里加1，删除的元素跳过。
         return source[start:start + window] if (window != 2147483647) else ''
+
+# medium: http://lintcode.com/zh-cn/problem/minimum-window-substring/
