@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param k & n  two integer
@@ -19,3 +19,5 @@ class Solution:
                     ret += 1
                 i /= 10
             return ret
+
+# medium: http://lintcode.com/zh-cn/problem/digit-counts/
