@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n an integer
@@ -20,3 +20,5 @@ class Solution:
                 return False
             else:
                 ret[n] = True
+
+# easy: http://lintcode.com/problem/happy-number
