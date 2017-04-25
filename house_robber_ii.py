@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param nums: A list of non-negative integers.
@@ -30,3 +30,5 @@ class Solution:
                 caches[i] = max(caches[i] + caches[i - 2], caches[i - 1])
             ret_2 = caches[-1]
             return max(ret_1, ret_2)
+
+# medium: http://lintcode.com/zh-cn/problem/house-robber-ii/
