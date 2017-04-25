@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s: a string
@@ -18,3 +18,5 @@ class Solution:
             if len_of_substr > ret:
                 ret = len_of_substr
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/longest-substring-without-repeating-characters/
