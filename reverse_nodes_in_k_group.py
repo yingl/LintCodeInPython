@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class Solution:
     # @param head, a ListNode
     # @param k, an integer
@@ -46,3 +48,5 @@ class Solution:
         tail.next = new_head
         new_head = tail
         return new_head, new_tail
+
+# hard: http://lintcode.com/zh-cn/problem/reverse-nodes-in-k-group/
