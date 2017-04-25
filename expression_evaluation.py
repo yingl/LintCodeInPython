@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param expression: a list of strings;
@@ -58,3 +58,5 @@ class Solution:
 
     def isOperand(self, item):  # 这里偷个懒，测试数据没有负数！
         return (item[0] >= '0') and (item[0] <= '9')
+
+# hard: http://lintcode.com/problem/expression-evaluation
