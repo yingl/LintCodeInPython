@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {ListNode} head, a ListNode
@@ -52,3 +52,5 @@ class Solution:
                     return head, head.next
             head = head.next
         return None, None
+
+# medium: http://lintcode.com/zh-cn/problem/swap-two-nodes-in-linked-list/
