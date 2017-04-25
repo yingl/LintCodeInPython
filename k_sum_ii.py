@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -26,3 +26,5 @@ class Solution:
         new_candidates.extend(candidates)
         new_candidates.append(A[index])
         self.dfs(A, k - 1, target - A[index], index + 1, new_candidates)
+
+# medium: http://lintcode.com/zh-cn/problem/k-sum-ii/
