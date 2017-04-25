@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A, a list of integers
@@ -34,3 +34,5 @@ class Solution:
                     ret[i + j + 1] = min(ret[j], ret[i] + 1)
         return ret[-1]
     '''
+
+# medium: http://lintcode.com/zh-cn/problem/jump-game-ii/
