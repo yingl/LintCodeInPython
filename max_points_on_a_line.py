@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} points an array of point
@@ -28,3 +28,5 @@ class Solution:
             return 2147483647
         else: # 如果浮点数不能解决问题就用最大公约数！
             return float(point_x.y - point_y.y) / float(point_x.x - point_y.x)
+
+# medium: http://lintcode.com/zh-cn/problem/max-points-on-a-line/
