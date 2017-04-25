@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
         root.left = self._buildTree(inorder, in_start, i, postorder, post_start, post_start + left_len)
         root.right = self._buildTree(inorder, i + 1, in_end, postorder, post_start + left_len, post_end - 1)
         return root
+
+# medium: http://lintcode.com/zh-cn/problem/construct-binary-tree-from-inorder-and-postorder-traversal/
