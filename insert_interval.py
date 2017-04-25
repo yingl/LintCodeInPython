@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -30,3 +30,5 @@ class Solution:
             else:
                 ret.append(intervals[i])
         return ret
+
+# easy: http://lintcode.com/problem/insert-interval
