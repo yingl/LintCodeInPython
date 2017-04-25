@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     # @oaram A: a list of integer
@@ -22,3 +22,5 @@ class Solution:
                 node.max = max(node.max, right.max)
             node.left, node.right = left, right
             return node
+
+# medium: http://lintcode.com/zh-cn/problem/segment-tree-build-ii/
