@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class Solution: 
     # @param S, T: Two string.
     # @return: Count the number of distinct subsequences
@@ -25,3 +27,5 @@ class Solution:
                 if T[i - 1] == S[j - 1]:
                     caches[i][j] += caches[i - 1][j - 1]
         return caches[-1][-1]
+
+# medium: http://lintcode.com/zh-cn/problem/distinct-subsequences/
