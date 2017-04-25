@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -36,3 +36,5 @@ class Solution:
         left.left = self.rebuildTree(left.left, left.right)
         left.right = right
         return left
+
+# hard: http://lintcode.com/zh-cn/problem/remove-node-in-binary-search-tree/
