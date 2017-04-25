@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param start, a string
@@ -25,3 +25,5 @@ class Solution:
                             paths.append((new_word, length + 1))
                             dict.remove(new_word)
         return 0
+
+# medium: http://lintcode.com/zh-cn/problem/word-ladder/
