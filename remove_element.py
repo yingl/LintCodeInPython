@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -15,3 +15,5 @@ class Solution:
             else:
                 A[i - step] = A[i]
         return len(A) - step
+
+# easy: http://lintcode.com/zh-cn/problem/remove-element/
