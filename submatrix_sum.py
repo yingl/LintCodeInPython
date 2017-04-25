@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[][]} matrix an integer matrix
@@ -41,3 +41,5 @@ class Solution:
                         return ret
                     cache[sub_sum] = k
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/submatrix-sum/
