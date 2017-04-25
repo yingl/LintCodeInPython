@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
                 sum += nums[j]
                 if sum == 0:
                     return [i, j]
+
+# easy: http://lintcode.com/zh-cn/problem/subarray-sum/
