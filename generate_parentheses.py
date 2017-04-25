@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n n pairs
@@ -19,3 +19,5 @@ class Solution:
             self._generateParenthesis(comb + '(', left_pars + 1, right_pars)
         if right_pars < left_pars:  # 未完成的组合，右括号数目必须小于等于左括号。
             self._generateParenthesis(comb + ')', left_pars, right_pars + 1)
+
+# medium: http://lintcode.com/zh-cn/problem/generate-parentheses/
