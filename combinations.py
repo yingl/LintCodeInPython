@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """    
@@ -32,3 +32,5 @@ class Solution:
                         new_comb.extend(comb)
                         ret.append(new_comb)
             return ret
+
+# medium: http://lintcode.com/zh-cn/problem/combinations/
