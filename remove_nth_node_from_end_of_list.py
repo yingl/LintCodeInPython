@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -25,3 +25,5 @@ class Solution:
         else:
             prev.next = second.next
             return head
+
+# easy: http://lintcode.com/problem/remove-nth-node-from-end-of-list
