@@ -28,4 +28,4 @@ class Solution:
             j += 1
         return ret
 
-# medium: http://lintcode.com/zh-cn/problem/spiral-matrix-ii/
+# medium: http://lintcode.com/zh-cn/problem/spiral-matrix/
