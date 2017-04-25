@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -31,3 +31,5 @@ class Solution:
             root.left = self.sortedListToBST(head)
         root.right = self.sortedListToBST(new_head)
         return root
+
+# medium: http://lintcode.com/zh-cn/problem/convert-sorted-list-to-balanced-bst/
