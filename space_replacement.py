@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {char[]} string: An array of Char
@@ -25,3 +25,5 @@ class Solution:
                 index -= 1
                 string[index] = string[i]
         return len(string)
+
+# easy: http://lintcode.com/zh-cn/problem/space-replacement/
