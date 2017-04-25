@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -18,3 +18,5 @@ class Solution:
             del(digits[pos])    # 删除已使用的元素
             k -= (pos * factorials[i])
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/permutation-sequence/
