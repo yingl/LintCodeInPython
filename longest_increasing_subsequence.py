@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -19,3 +19,5 @@ class Solution:
                 caches[i] = _len + 1
                 ret = max(caches[i], ret)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/longest-increasing-subsequence/
