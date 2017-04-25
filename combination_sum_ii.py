@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:    
     """
@@ -30,3 +30,5 @@ class Solution:
                         self._combinationSum2(candidates, comb, j + 1, _sum + prev)
                         comb.pop()
                     j += 1
+
+# medium: http://lintcode.com/zh-cn/problem/combination-sum-ii/
