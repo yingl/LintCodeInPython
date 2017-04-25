@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s: a list of char
@@ -23,3 +23,5 @@ class Solution:
             s[left], s[right] = s[right], s[left]
             left += 1
             right -= 1
+
+# easy: http://lintcode.com/zh-cn/problem/rotate-string/
