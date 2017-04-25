@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -13,3 +13,5 @@ class Solution:
             if a.val == b.val:
                 return self.isIdentical(a.left, b.left) and self.isIdentical(a.right, b.right)
         return False
+
+# easy: http://lintcode.com/zh-cn/problem/identical-binary-tree/
