@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
      # @param nums: a list of integers
@@ -22,3 +22,5 @@ class Solution:
         return -1 if ret == 2147483647 else ret
 
     # TODO: nLog(n)复杂度的算法
+
+# medium: http://lintcode.com/zh-cn/problem/minimum-size-subarray-sum/
