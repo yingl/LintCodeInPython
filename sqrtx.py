@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -21,3 +21,5 @@ class Solution:
                 sqrt = int((begin + end) / 2)
                 if sqrt == begin:
                     return sqrt
+
+# easy: http://lintcode.com/zh-cn/problem/sqrtx/
