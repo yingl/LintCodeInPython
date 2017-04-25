@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
 
@@ -61,3 +61,5 @@ class Solution:
                     i += 1
             level = new_level
         return root
+
+# medium: http://lintcode.com/zh-cn/problem/binary-tree-serialization/
