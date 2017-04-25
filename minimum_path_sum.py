@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -23,3 +23,5 @@ class Solution:
             dist = grid[row][col] + self.dfs(grid, row, col - 1)
         self.min_paths[row][col] = dist
         return dist
+
+# easy: http://lintcode.com/zh-cn/problem/minimum-path-sum/    
