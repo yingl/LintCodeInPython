@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class WordCount:
 
     # @param {str} line a text, for example "Bye Bye see you next"
@@ -15,3 +17,5 @@ class WordCount:
         # Write your code here
         # Please use 'yield key, value'
         yield key, len(values)
+
+# easy: http://lintcode.com/zh-cn/problem/word-count-map-reduce/
