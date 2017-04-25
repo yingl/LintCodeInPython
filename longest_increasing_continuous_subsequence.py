@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} A an array of Integer
@@ -29,3 +29,5 @@ class Solution:
                     sign = 1
             i += 1
         return max_seq_count if max_seq_count >= seq_count else seq_count
+
+# easy: http://lintcode.com/zh-cn/problem/longest-increasing-continuous-subsequence/
