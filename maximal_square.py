@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     #param matrix: a matrix of 0 and 1
@@ -24,3 +24,5 @@ class Solution:
                     dp[i][j] = min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]) + 1
                 width = max(dp[i][j], width)
         return width * width
+
+# medium: http://lintcode.com/zh-cn/problem/maximal-square/
