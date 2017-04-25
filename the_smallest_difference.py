@@ -33,4 +33,4 @@ class Solution:
                     j += 1
         return diff
 
-# medium: http://lintcode.com/zh-cn/problem/topological-sorting/
+# medium: http://lintcode.com/zh-cn/problem/the-smallest-difference/
