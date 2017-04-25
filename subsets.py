@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -33,3 +33,5 @@ class Solution:
                 else:
                     ret.append([numbers[i]])
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/subsets/
