@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -21,3 +21,5 @@ class Solution:
                     elif (i >= 1) and (j >= 1):
                         paths[i][j] = paths[i - 1][j] + paths[i][j - 1]
         return paths[rows - 1][cols - 1]
+
+# easy: http://lintcode.com/zh-cn/problem/unique-paths-ii/
