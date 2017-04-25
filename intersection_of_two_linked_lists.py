@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param headA: the first list
@@ -28,3 +28,5 @@ class Solution:
             list_len += 1
             head = head.next
         return list_len
+
+# medium: http://lintcode.com/zh-cn/problem/intersection-of-two-linked-lists/
