@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n The integer
@@ -50,3 +50,5 @@ class Solution:
                 else: # 百位
                     ret += 'CM'
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/integer-to-roman/
