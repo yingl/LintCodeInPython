@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param root: a TreeNode, the root of the binary tree
@@ -28,3 +28,5 @@ class Solution:
             tail = right_tail
         head.left = None
         return head, tail
+
+# easy: http://lintcode.com/zh-cn/problem/flatten-binary-tree-to-linked-list/
