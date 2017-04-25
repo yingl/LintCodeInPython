@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param A, B: Two string.
@@ -13,3 +13,5 @@ class Solution:
                 cache[i][j] = cache[i - 1][j - 1] + 1 if A[i - 1] == B[j - 1] else 0
                 ret = max(cache[i][j], ret)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/longest-common-substring/
