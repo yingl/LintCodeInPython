@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
             before_node = before_node.next
             after_node = after_node.next
         return after_node
+
+# easy: http://lintcode.com/zh-cn/problem/nth-to-last-node-in-list/
