@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution(object):
 
@@ -19,3 +19,5 @@ class Solution(object):
                 else:
                     _list.append(i)
         return _list
+
+# easy: http://lintcode.com/problem/flatten-list
