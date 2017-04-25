@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -38,3 +38,5 @@ class Solution:
         for i in xrange(1, len(nums)):
             ret = max(ret, abs(left[i - 1] - right[i]))
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/maximum-subarray-difference/
