@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param nums: a list of integers
@@ -17,3 +17,5 @@ class Solution:
                     i += 1
                 if (nums[j] % 2 == 0):
                     j -= 1
+
+# easy: http://lintcode.com/zh-cn/problem/partition-array-by-odd-and-even/
