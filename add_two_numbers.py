@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param l1: the first list
@@ -40,3 +40,5 @@ class Solution:
         if flag:
             tail.next = ListNode(flag)
         return head
+
+# easy: http://lintcode.com/zh-cn/problem/add-two-numbers/
