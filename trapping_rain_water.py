@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param heights: a list of integers
@@ -23,3 +23,5 @@ class Solution:
                     ret += l_max - heights[begin]
                     begin += 1
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/trapping-rain-water/
