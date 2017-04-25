@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     #@param n, m: Two integer
@@ -20,3 +20,5 @@ class Solution:
         if bits[31] == 1:  # 负号
             n -= (1 << 31)
         return n
+
+# medium: http://lintcode.com/zh-cn/problem/update-bits/
