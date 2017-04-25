@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -12,4 +12,6 @@ class Solution:
         for i in range(1, m):  
             for j in range(1, n):  
                 paths[i][j] = paths[i - 1][j] + paths[i][j - 1]  
-        return paths[m - 1][n - 1]  
+        return paths[m - 1][n - 1]
+
+# easy: http://lintcode.com/zh-cn/problem/unique-paths/
