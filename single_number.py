@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -11,3 +11,5 @@ class Solution:
         for num in A:
             ret ^= num
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/single-number/
