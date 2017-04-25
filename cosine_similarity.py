@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
         if sqr_a == 0 or sqr_b == 0:
             return 2.0
         return sum_a_dot_b / math.sqrt(sqr_a * sqr_b)
+
+# easy: http://lintcode.com/zh-cn/problem/cosine-similarity/
