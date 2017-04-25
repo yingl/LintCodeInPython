@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     def __init__(self):
@@ -15,3 +15,5 @@ class Solution:
             self.preorderTraversal(root.left)
             self.preorderTraversal(root.right)
         return self.ret
+
+# easy: http://lintcode.com/problem/binary-tree-preorder-traversal
