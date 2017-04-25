@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -29,3 +29,5 @@ class Solution:
                     # 只有当dp[i - 1][j - 1] = True时，判断两个字符是否匹配。
                     dp[i][j] = dp[i - 1][j - 1] and ((s[i - 1] == p[j - 1]) or (p[j - 1] == '.'))
         return dp[m][n]
+
+# hard: http://lintcode.com/zh-cn/problem/regular-expression-matching/
