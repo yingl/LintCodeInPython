@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -25,3 +25,5 @@ class Solution:
                 two_pos -= 1  # 2出现的位置向前移动一位
             else:
                 i += 1
+
+# medium: http://lintcode.com/zh-cn/problem/sort-colors/
