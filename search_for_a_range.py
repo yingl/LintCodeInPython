@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -34,3 +34,5 @@ class Solution:
             else:
                 end = mid   # end是开区间，所以不用减1。
         return -1
+
+# medium: http://lintcode.com/zh-cn/problem/search-for-a-range/
