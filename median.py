@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -26,3 +26,5 @@ class Solution:
             return self._median(nums, begin, index - 1, pos)
         else:
             return self._median(nums, index + 1, end, pos - (index - begin + 1))
+
+# easy: http://lintcode.com/zh-cn/problem/median/
