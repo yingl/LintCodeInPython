@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n the nth
@@ -27,3 +27,5 @@ class Solution:
             ret += ch
             i = j
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/count-and-say/
