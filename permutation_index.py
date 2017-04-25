@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} A an integer array
@@ -14,3 +14,5 @@ class Solution:
                 fact *= (j - i)
             ret += rc * fact
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/permutation-index/
