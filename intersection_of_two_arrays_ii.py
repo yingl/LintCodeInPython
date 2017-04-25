@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} nums1 an integer array
@@ -21,3 +21,5 @@ class Solution:
             else:
                 j += 1
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/intersection-of-two-arrays-ii/
