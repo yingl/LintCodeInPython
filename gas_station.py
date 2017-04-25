@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param gas, a list of integers
@@ -29,3 +29,5 @@ class Solution:
                     i = j + 1 # 既然从i点不行，利用上面的推论，我们从j + 1开始尝试。
                     break
         return -1
+
+# medium: http://lintcode.com/zh-cn/problem/gas-station/
