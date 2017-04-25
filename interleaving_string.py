@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -21,3 +21,5 @@ class Solution:
             if self._isInterleave(s3, s3_start + 1, s1, s1_start, s2, s2_start + 1):
                 return True
         return False
+
+# medium: http://lintcode.com/zh-cn/problem/interleaving-string/
