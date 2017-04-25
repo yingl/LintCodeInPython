@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @paramn n: An integer
@@ -27,3 +27,5 @@ class Solution:
                     root.left, root.right = left_tree, right_tree
                     trees.append(root)
         return trees
+
+# medium: http://lintcode.com/zh-cn/problem/unique-binary-search-trees-ii/
