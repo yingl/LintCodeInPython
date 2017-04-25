@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -22,3 +22,5 @@ class Solution:
         if buy_price != -1:
             ret += prices[-1] - buy_price
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/best-time-to-buy-and-sell-stock-ii/
