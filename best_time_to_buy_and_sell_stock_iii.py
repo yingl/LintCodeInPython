@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -32,3 +32,5 @@ class Solution:
                     if (max_profit_2 + profits[i]) > ret: # 有先买后卖的限制
                         ret = max_profit_2 + profits[i]
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/best-time-to-buy-and-sell-stock-iii/
