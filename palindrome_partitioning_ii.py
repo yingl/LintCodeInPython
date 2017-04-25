@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s, a string
@@ -28,3 +28,5 @@ class Solution:
                     '''
                     ret[i] = min(ret[i], ret[j + 1] + 1)
         return ret[0] - 1   # 因为第0个是虚拟元素，所以要扣除一次。
+
+# medium: http://lintcode.com/zh-cn/problem/palindrome-partitioning-ii/
