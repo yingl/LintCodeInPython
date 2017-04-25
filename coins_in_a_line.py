@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     def __init__(self):
@@ -20,3 +20,5 @@ class Solution:
             '''
             self.cache[n] = self.firstWillWin(n - 3)
         return self.cache[n]
+
+# medium: http://lintcode.com/zh-cn/problem/coins-in-a-line/
