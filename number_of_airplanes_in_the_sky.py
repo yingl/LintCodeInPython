@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param airplanes, a list of Interval
@@ -33,3 +33,5 @@ class Solution:
             airs += air_status[t]
             ret = max(airs, ret)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/number-of-airplanes-in-the-sky/
