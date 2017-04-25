@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     #@param A: An integers list.
@@ -15,3 +15,5 @@ class Solution:
                 elif A[i] > A[ret]:
                     ret = i
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/find-peak-element/
