@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param matrix: a matrix of integers
@@ -53,3 +53,5 @@ class Solution:
                 i = max_pos
             else:
                 break
+
+# medium: http://lintcode.com/zh-cn/problem/kth-smallest-number-in-sorted-matrix/
