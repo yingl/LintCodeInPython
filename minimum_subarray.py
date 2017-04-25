@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -22,3 +22,5 @@ class Solution:
         if sum_min < 0:
             return sum_min
         return plus_min
+
+# easy: http://lintcode.com/zh-cn/problem/minimum-subarray/
