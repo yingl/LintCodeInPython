@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -17,3 +17,5 @@ class Solution:
             node.next = new_head
             new_head = node
         return new_head
+
+# easy: http://lintcode.com/zh-cn/problem/reverse-linked-list/
