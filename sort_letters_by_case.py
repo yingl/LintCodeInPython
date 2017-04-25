@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
                 chars[i], chars[j] = chars[j], chars[i]
                 i += 1
                 j -= 1
+
+# medium: http://lintcode.com/zh-cn/problem/sort-letters-by-case/
