@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -29,3 +29,5 @@ class Solution:
                 i += 1
                 j -= 1
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/search-a-2d-matrix-ii/
