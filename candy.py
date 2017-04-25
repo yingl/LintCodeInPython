@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[]} ratings Children's ratings
@@ -25,3 +25,5 @@ class Solution:
                 if candies[i] <= candies[i + 1]:
                     candies[i] = candies[i + 1] + 1
         return sum(candies)
+
+# hard: http://lintcode.com/zh-cn/problem/candy/
