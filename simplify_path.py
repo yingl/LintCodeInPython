@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {string} path the original path
@@ -13,3 +13,5 @@ class Solution:
             elif _dir and (_dir != '.') and (_dir != '..'):
                 new_path.append(_dir)
         return '/' + '/'.join(new_path)
+
+# medium: http://lintcode.com/zh-cn/problem/simplify-path/
