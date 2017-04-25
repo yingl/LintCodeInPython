@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param intervals, a list of Interval
@@ -21,3 +21,5 @@ class Solution:
         if tmp:
             ret.append(tmp)
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/merge-intervals/
