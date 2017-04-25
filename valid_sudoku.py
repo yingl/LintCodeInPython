@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param board, a 9x9 2D array
@@ -38,3 +38,5 @@ class Solution:
             else:
                 return False
         return True
+
+# easy: http://lintcode.com/zh-cn/problem/valid-sudoku/
