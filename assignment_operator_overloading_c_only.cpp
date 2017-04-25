@@ -27,3 +27,5 @@ public:
         return *this;
     }
 };
+
+// medium: http://lintcode.com/zh-cn/problem/assignment-operator-overloading-c-only/
