@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -18,3 +18,5 @@ class Solution:
             f_1 = f_2
             f_2 = ret
         return ret
+
+# easy: http://lintcode.com/problem/climbing-stairs
