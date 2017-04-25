@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -17,3 +17,5 @@ class Solution:
             else:
                 start = mid + 1 # 错误在后半部分
         return start
+
+# medium: http://lintcode.com/zh-cn/problem/first-bad-version/
