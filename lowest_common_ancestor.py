@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -20,3 +20,5 @@ class Solution:
             return root
         else:
             return left if left else right
+
+# medium: http://lintcode.com/zh-cn/problem/lowest-common-ancestor/
