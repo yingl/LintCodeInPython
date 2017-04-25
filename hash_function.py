@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -24,3 +24,5 @@ class Solution:
             return (((x * x) % b) * a) % b
         else:
             return (x * x) % b
+
+# easy: http://lintcode.com/problem/hash-function
