@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -45,3 +45,5 @@ class Solution:
                 i = min_pos
             else:   # min_pos没变，A[i]无须调整，结束循环。
                 break
+
+# medium: http://lintcode.com/zh-cn/problem/merge-k-sorted-lists/
