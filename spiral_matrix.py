@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int[][]} matrix a matrix of m x n elements
@@ -27,3 +27,5 @@ class Solution:
             i += 1
             j += 1
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/spiral-matrix-ii/
