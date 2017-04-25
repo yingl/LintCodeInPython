@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param num: an integer
@@ -12,3 +12,5 @@ class Solution:
                 ret += 1
             num >>= 1
         return ret
+
+# easy: http://lintcode.com/problem/count-1-in-binary
