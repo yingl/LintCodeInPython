@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     def __init__(self):
@@ -22,3 +22,5 @@ class Solution:
             self.tail = node
             self.bstToDoublyList(root.right)
         return self.head
+
+# medium: http://lintcode.com/zh-cn/problem/convert-binary-search-tree-to-doubly-linked-list/
