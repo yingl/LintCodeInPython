@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
             a = ctypes.c_int32(a ^ b).value
             b = ctypes.c_int32(carry << 1).value
         return a
+
+# easy: http://lintcode.com/zh-cn/problem/a-b-problem/
