@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n the integer to be reversed
@@ -18,3 +18,5 @@ class Solution:
             return 0
         else:
             return ret if plus else -ret
+
+# easy: http://lintcode.com/zh-cn/problem/reverse-integer/
