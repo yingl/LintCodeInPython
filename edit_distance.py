@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution: 
     # @param word1 & word2: Two string.
@@ -23,3 +23,5 @@ class Solution:
                 dist_2 += 1
             self.cache[start_1][start_2] = min(dist_1, dist_2)
         return self.cache[start_1][start_2]
+
+# medium: http://lintcode.com/zh-cn/problem/edit-distance/
