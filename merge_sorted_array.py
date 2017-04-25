@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -21,3 +21,5 @@ class Solution:
         if i < 0:
             for k in xrange(j + 1):
                 A[k] = B[k]
+
+# easy: http://lintcode.com/zh-cn/problem/merge-sorted-array/
