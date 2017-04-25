@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param num: a rotated sorted array
@@ -18,3 +18,5 @@ class Solution:
             else:
                 high -= 1
         return min(num[0], num[-1])
+
+# medium: http://lintcode.com/zh-cn/problem/find-minimum-in-rotated-sorted-array/
