@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param s: a string
@@ -12,3 +12,5 @@ class Solution:
             else:
                 return False
         return True
+
+# easy: http://lintcode.com/zh-cn/problem/unique-characters/
