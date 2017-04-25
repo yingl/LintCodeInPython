@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -16,3 +16,5 @@ class Solution:
             else:
                 count = (count + 1) if ret == nums[i] else (count - 1)
         return ret
+
+# easy: http://lintcode.com/zh-cn/problem/majority-number/
