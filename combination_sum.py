@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param candidates, a list of integers
@@ -31,3 +31,5 @@ class Solution:
                         self._combinationSum(candidates, comb, j, _sum + prev)
                         comb.pop()
                     j += 1
+
+# medium: http://lintcode.com/zh-cn/problem/combination-sum/
