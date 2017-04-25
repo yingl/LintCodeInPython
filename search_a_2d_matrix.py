@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -32,3 +32,5 @@ class Solution:
             else:
                 return True
         return False
+
+# easy: http://lintcode.com/zh-cn/problem/search-a-2d-matrix/
