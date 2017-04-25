@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     def strStr(self, source, target):
@@ -8,3 +8,5 @@ class Solution:
             if source[i:i + len(target)] == target:
                 return i
         return -1
+
+# easy: http://lintcode.com/zh-cn/problem/strstr/
