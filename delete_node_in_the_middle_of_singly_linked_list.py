@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param node: the node in the list should be deleted
@@ -11,3 +11,5 @@ class Solution:
             p = node.next
             node.val = p.val
             node.next = p.next
+
+# easy: http://lintcode.com/problem/delete-node-in-the-middle-of-singly-linked-list
