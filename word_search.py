@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param board, a list of lists of 1 length string
@@ -34,3 +34,5 @@ class Solution:
                 board[row][col] = ch
         else:
             return False
+
+# medium: http://lintcode.com/zh-cn/problem/word-search/
