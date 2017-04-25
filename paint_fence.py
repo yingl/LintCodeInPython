@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param {int} n non-negative integer, n posts
@@ -26,3 +26,5 @@ class Solution:
                 plans[1] = tmp
                 i += 1
             return plans[1]
+
+# easy: http://lintcode.com/zh-cn/problem/paint-fence/
