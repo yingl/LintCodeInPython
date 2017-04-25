@@ -1,3 +1,5 @@
+# coding: utf-8
+
 class Tower(object):
     # create three towers (i from 0 to 2)
     def __init__(self, i):
@@ -42,3 +44,5 @@ for i in xrange(n - 1, -1, -1): towers[0].add(i)
 towers[0].move_disks(n, towers[2], towers[1])
 print towers[0], towers[1], towers[2]
 """
+
+# easy: http://lintcode.com/zh-cn/problem/mock-hanoi-tower-by-stacks/
