@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -13,3 +13,5 @@ class Solution:
             ret = (ret ^ num) & (~tmp)
             tmp = (tmp ^ num) & (~ret)
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/single-number-ii/
