@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -25,3 +25,5 @@ class Solution:
         # 生成右子树
         root.right = self._buildTree(preorder, pre_start + 1 + left_len, pre_end, inorder, i + 1, in_end)
         return root
+
+# medium: http://lintcode.com/zh-cn/problem/construct-binary-tree-from-preorder-and-inorder-traversal/
