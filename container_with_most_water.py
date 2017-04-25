@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     # @param heights: a list of integers
@@ -24,3 +24,5 @@ class Solution:
                     pos += 1
                 begin = pos
         return ret
+
+# medium: http://lintcode.com/zh-cn/problem/container-with-most-water/
