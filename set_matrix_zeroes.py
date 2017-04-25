@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# coding: utf-8
 
 class Solution:
     """
@@ -51,3 +51,5 @@ def zero_col(matrix, col, up, low):
     while up < low:
         matrix[up][col] = 0
         up += 1
+
+# medium: http://lintcode.com/zh-cn/problem/set-matrix-zeroes/
