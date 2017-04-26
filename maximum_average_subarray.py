@@ -6,6 +6,7 @@ class Solution:
     # @return {double} the maximum average
     def maxAverage(self, nums, k):
         # Write your code here
+        # 智商不足，网上搜的答案想了很久才想明白。希望后面的注释有用！
         self.min = sys.maxsize # 平均数的下限，不可能比最小的小。
         self.max = -self.min # 平均数的上限，不可能比最大的大。
         for i in nums:
@@ -27,7 +28,7 @@ class Solution:
         for i in range(1, len(sums)):
             # sums[i] = (nums[0] + ... + nums[i - 1]) - (mid * i)
             sums[i] = sums[i - 1] + nums[i - 1] - mid
-            if i > k:
+            if i >= k:
                 '''
                 这里首先看sums[i] < 0的情况（因为bar的初始值为0）。
                 - 如果sums[i]小于bar，第一次意味着前k个数的平均数都小于mid。
