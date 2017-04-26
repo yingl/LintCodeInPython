@@ -36,7 +36,6 @@ class MiniTwitter:
                 break
         return ret
 
-# medium: http://lintcode.com/zh-cn/problem/mini-twitter/#
     # @param {int} user_id
     # return {Tweet[]} 10 new posts recently
     # and sort by timeline
@@ -71,3 +70,5 @@ class MiniTwitter:
         if from_user_id in self.follows:
             if to_user_id in self.follows[from_user_id]:
                 self.follows[from_user_id].remove(to_user_id)
+
+# medium: http://lintcode.com/zh-cn/problem/mini-twitter/
