@@ -14,4 +14,4 @@ class Solution:
             f *= i
         return str(f)
         
-# medium: http://lintcode.com/zh-cn/problem/factorial/
+# hard: http://lintcode.com/zh-cn/problem/factorial/
