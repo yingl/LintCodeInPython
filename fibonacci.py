@@ -15,4 +15,4 @@ class Solution:
             f_2 = ret
         return ret
         
-# entry: http://www.lintcode.com/zh-cn/problem/fibonacci/
+# naive: http://www.lintcode.com/zh-cn/problem/fibonacci/
