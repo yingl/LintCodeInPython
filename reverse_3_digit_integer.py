@@ -11,4 +11,4 @@ class Solution:
             number /= 10
         return ret
 
-# Easy: http://www.lintcode.com/zh-cn/problem/reverse-3-digit-integer/
+# entry: http://www.lintcode.com/zh-cn/problem/reverse-3-digit-integer/
