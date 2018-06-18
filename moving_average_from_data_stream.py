@@ -6,18 +6,20 @@ class MovingAverage:
         # do intialization if necessary
         self.size = size
         self.queue = []
-        self.start = 0 # 考虑到用list模拟queue的效率，还是空间换时间吧。
-        self.total = float(0)
+        self.start = 0
+        self.total = 0
 
     """
     @param: val: An integer
     @return:  
     """
     def next(self, val):
-        # write your code here
-        self.total += float(val)
-        self.queue.append(val)
-        if (len(self.queue) - self.start) > self.size:
+        self.total += val
+        if len(self.queue) == self.size: # 限制数组大小，实现更优雅。
             self.total -= self.queue[self.start]
+            self.queue[self.start] = val
             self.start += 1
-        return self.total / (len(self.queue) - self.start)
+            self.start %- self.size
+        else:
+            self.queue.append(val)
+        return self.total / len(self.queue)
