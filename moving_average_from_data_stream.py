@@ -23,3 +23,5 @@ class MovingAverage:
         else:
             self.queue.append(val)
         return self.total / len(self.queue)
+
+# medium: https://lintcode.com/zh-cn/problem/moving-average-from-data-stream/
