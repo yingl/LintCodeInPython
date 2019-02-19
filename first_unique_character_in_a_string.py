@@ -15,4 +15,4 @@ class Solution:
             if data[ord(c) - 65] == 1:
                 return c
                 
-# easy: https://www.lintcode.com/problem/first-unique-character-in-a-string/description
+# easy: https://www.lintcode.com/problem/first-unique-character-in-a-string
