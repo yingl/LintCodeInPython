@@ -18,4 +18,4 @@ class Solution:
             node = node.next
         return head
         
-# entry: http://www.lintcode.com/zh-cn/problem/remove-linked-list-elements/
+# naive: http://www.lintcode.com/zh-cn/problem/remove-linked-list-elements/
