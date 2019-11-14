@@ -10,4 +10,4 @@ class Solution:
                 if A[i] > A[j]:
                     A[i], A[j] = A[j], A[i]
 
-# entry: http://www.lintcode.com/problem/sort-integers
+# naive: http://www.lintcode.com/problem/sort-integers
