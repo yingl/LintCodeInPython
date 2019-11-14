@@ -43,4 +43,4 @@ class Solution:
                 bar = min(bar, sums[i - k + 1])
         return False
 
-# medium: http://lintcode.com/zh-cn/problem/maximum-average-subarray/
+# medium: https://www.lintcode.com/problem/maximum-average-subarray-ii/
