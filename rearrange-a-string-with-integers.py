@@ -17,4 +17,4 @@ class Solution:
             ret.append(count.__str__())
         return ''.join(ret)
         
-easy: https://www.lintcode.com/problem/rearrange-a-string-with-integers
+# easy: https://www.lintcode.com/problem/rearrange-a-string-with-integers
