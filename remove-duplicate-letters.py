@@ -31,3 +31,5 @@ class Solution:
             ret.append(c)
             visited[c] = True
         return ''.join(ret)
+
+# easy: https://www.lintcode.com/problem/remove-duplicate-letters/
