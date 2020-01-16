@@ -22,7 +22,6 @@ class TwoSum:
         for k, v in self.di.items():
             t = value - k
             if t == k:
-                print(t)
                 if (t in self.di) and (self.di[t] >= 2):
                     return True
             else:
