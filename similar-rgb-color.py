@@ -20,7 +20,7 @@ class Solution:
         for _color in colors:
             if abs(_color - color) < diff:
                 diff = abs(_color - color)
-            ret = _color
+                ret = _color
         return self.to_hex(ret)
         
     def to_hex(self, i):
