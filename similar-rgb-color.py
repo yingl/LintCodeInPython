@@ -9,6 +9,8 @@ class Solution:
         ret = '#'
         for i in (1, 3, 5):
             c = self.find_nearest_color(color[i:i+2])
+            if c == '0':
+                ret += '0'
             ret += c
         return ret
         
@@ -16,7 +18,7 @@ class Solution:
         ret = ''
         diff = 256
         color = int(color, 16)
-        colors = [0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xff]
+        colors = [0x00, 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88, 0x99, 0xaa, 0xbb, 0xcc, 0xdd, 0xee, 0xff]
         for _color in colors:
             if abs(_color - color) < diff:
                 diff = abs(_color - color)
