@@ -14,9 +14,8 @@ class Solution:
             if k == 1:
                 prev = nums[k] # 要考虑出现的第一个元素就比后面大的情况
             else:
-                prev = nums[k - 2] # 比较基准
-            print(k, prev)
-            for i in range(k, len(nums)):
+                prev = nums[k - 1] # 比较基准
+            for i in range(k + 1, len(nums)):
                 if nums[i] < prev:
                     return False
                 prev = nums[i]
