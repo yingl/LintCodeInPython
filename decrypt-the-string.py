@@ -35,7 +35,7 @@ class Solution:
                     r2 = int(ret.pop())
                 ret.pop() # 弹出'['
                 if r2 == 0:
-                    ret.append(r1 + r0)
+                    ret.append(r0)
                 else:
                     ret.append(r0 * r2)
         return ''.join(ret)
