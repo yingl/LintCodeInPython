@@ -17,4 +17,4 @@ class Solution:
             ret += rc * facts[len(A) - i - 1]
         return ret
 
-# easy: http://lintcode.com/zh-cn/problem/permutation-index/
+# medium: http://lintcode.com/zh-cn/problem/permutation-index/
