@@ -13,30 +13,20 @@ class Solution:
     """
     def findSubtree(self, root):
         # write your code here
-        di = {None: 0}
-        return self.find(root, di)
-
-    def find(self, root, di):
-        if not root:
-            return None
-        nl = self.find(root.left, di)
-        nr = self.find(root.right, di)
-        s = self.sum(root, di)
-        sl = di[nl]
-        sr = di[nr]
-        if nl and nr:
-            if s >= max(sl, sr):
-                return root
-            else:
-                return nl if sl > sr else nr
-        elif nl: # right is None
-            return root if s >= sl else nl;
-        elif nr: # left is None
-            return root if s >= sr else nr;
-        else:
-            return root
+        ret = None
+        if root:
+            di = {None: 0}
+            self.sum(root, di)
+            s = 0
+            for k, v in di.items():
+                if v >= s:
+                    s = v
+                    ret = k
+        return ret
 
     def sum(self, root, di):
+        if not root:
+            return 0
         if root not in di:
             di[root] = self.sum(root.left, di) + self.sum(root.right, di) + root.val
         return di[root]
